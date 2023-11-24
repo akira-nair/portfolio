@@ -45,8 +45,8 @@ export default function Navbar() {
           minH={'70px'}
           py={{ base: 2 }}
           px={{ base: 4 }}
-          borderBottom={2}
-          borderStyle={'solid'}
+        //   borderBottom={2}
+        //   borderStyle={'solid'}
           align={'center'}
         >
         <HStack w={'100%'} justifyContent="space-between">
