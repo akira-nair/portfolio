@@ -17,12 +17,6 @@ import {
   useDisclosure,
   HStack,
 } from '@chakra-ui/react'
-import {
-    HamburgerIcon,
-    CloseIcon,
-    ChevronDownIcon,
-    ChevronRightIcon,
-    } from '@chakra-ui/icons'
 
 interface NavItem {
     label: string
