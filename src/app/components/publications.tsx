@@ -22,7 +22,7 @@ export default function Publications() {
                     <VStack verticalAlign={'true'}>
                         {publications.map((pub) => {
                             return (
-                                <Text color={'white'} fontSize={'small'} paddingBottom={'10px'}> {pub} </Text>
+                                <Text color={'white'} fontSize={'small'} paddingBottom={'10px'} key={pub}> {pub} </Text>
                             )
                         })}
                     </VStack>
