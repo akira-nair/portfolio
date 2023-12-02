@@ -3,7 +3,7 @@
 import React from "react";
 import { motion  } from "framer-motion";
 
-export function FadeIn({ children }: { children: React.ReactNode }) {
+export function FadeIn({ children, delay }: { children: React.ReactNode, delay?: number }) {
     return (
         <motion.div
             variants={{
@@ -12,7 +12,7 @@ export function FadeIn({ children }: { children: React.ReactNode }) {
             }}
             initial="hidden"
             animate="visible"
-            transition={{ duration: 1 }}
+            transition={{ duration: 1, delay: delay || 0 }}
         >
             {children}
         </motion.div>

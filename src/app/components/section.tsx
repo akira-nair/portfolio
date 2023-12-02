@@ -15,10 +15,9 @@ export default function Section(sectionProps: SectionProps) {
             
             <Box paddingTop={'50px'} maxW={'1000px'} mx="auto" textAlign="center">
                 <VStack spacing={3} verticalAlign={'true'}>
-                    
-                    <Text color={'white'} letterSpacing={30} fontSize='30px'> {sectionProps.title} </Text>
+                    <Text color={'white'} letterSpacing={8} fontSize='25px'> {sectionProps.title} </Text>
                     {sectionProps.divideOnTop && <Divider borderColor={'white'} />}
-                    <Text color={'white'} letterSpacing={2} fontSize='20px' fontWeight={'light'}> {sectionProps.desc} </Text>
+                    <Text color={'white'} letterSpacing={2} fontSize='15px' fontWeight={'light'}> {sectionProps.desc} </Text>
                 </VStack>
             </Box>
         </div>

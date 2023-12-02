@@ -16,16 +16,16 @@ export default function Publications() {
 
     return (
         <section id="publications">
-            <FadeIn>
+            <FadeIn delay={1.5}>
                 <Section title="PUBLICATIONS" desc="" divideOnTop />
-                <Box maxW={'80%'} mx='auto' bgColor={'#92B6B1'} padding={'30px'}>
-                    <VStack verticalAlign={'true'}>
+                <Box maxW={'60%'} mx='auto' bgColor={'#92B6B1'} padding={'30px'} textAlign={'left'}>
+                    {/* <VStack verticalAlign={'true'} textAlign={'left'}> */}
                         {publications.map((pub) => {
                             return (
-                                <Text color={'white'} fontSize={'small'} paddingBottom={'10px'} key={pub}> {pub} </Text>
+                                <Text color={'white'} fontSize={'10px'} paddingBottom={'10px'} key={pub}> {pub} </Text>
                             )
                         })}
-                    </VStack>
+                    {/* </VStack> */}
                 </Box>
             </FadeIn>
         </section>

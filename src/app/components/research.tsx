@@ -33,18 +33,13 @@ interface ExperienceProps {
 export function Experience(props: ExperienceProps) {
     return (
         <div>
-            <Box alignContent={'center'} mx={'auto'} bgColor={"#788AA3"} padding={'50px'} maxW={'80%'} minW={'80%'}>
+            <Box alignContent={'center'} mx={'auto'} bgColor={"#788AA3"} padding={'5%'} maxW={'60%'} minW={'60%'}>
                 {/* <StarIcon color={"salmon"}>  </StarIcon> */}
-                <Heading color={'white'} textAlign={'center'} paddingBottom={'30px'} maxW={'100%'}>
-                    <Highlight
-                        query={[props.title]}
-                        styles={{ px: '2', py: '1', rounded: 'full', bg: '#E8DDB5' }}
-                    >
+                <Heading size={'md'} color={'white'} textAlign={'center'} paddingBottom={'30px'} maxW={'100%'} overflowWrap={'break-word'}>
                         {props.title}
-                    </Highlight>
                 </Heading>
-                <Heading color={'white'} fontSize={'xl'} paddingBottom={'30px'} textAlign={'center'}> {props.job} </Heading>
-                <Text color={'white'} fontSize={'lg'} paddingBottom={'30px'}> {props.desc}
+                <Heading color={'white'} fontSize={'lg'} paddingBottom={'30px'} textAlign={'center'}> {props.job} </Heading>
+                <Text color={'white'} fontSize={'sm'} paddingBottom={'10px'} textAlign={'center'}> {props.desc}
                 </Text>
             </Box>
         </div>
@@ -57,7 +52,7 @@ export default function Research() {
 
     return (
         <section id="research">
-            <FadeIn>
+            <FadeIn delay={1}>
                 <Section title="RESEARCH" desc="" divideOnTop />
                 <VStack spacing={10} paddingTop={'10px'}>
                     <Experience {...experience1} />
