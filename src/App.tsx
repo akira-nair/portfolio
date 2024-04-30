@@ -4,6 +4,8 @@ import './App.css';
 import { ChakraProvider } from '@chakra-ui/react';
 import NavBar from './components/NavBar';
 import { myTheme } from './theme';
+import Main from './screens/Main';
+import About from './screens/About';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <header>
         </header>
         <NavBar />
+        <Main />
+        <About />
       </ChakraProvider>
     </div>
   );

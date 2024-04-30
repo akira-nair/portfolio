@@ -9,6 +9,11 @@ export default function NavBar() {
           padding="2rem"
           bg="c2"
           color="white"
+          zIndex="1"
+          pos="fixed"   // Fix the navbar position
+            top="0"      
+        left="0"
+        right="0"
         >
           <Flex align="center">
             <Link href="/">
