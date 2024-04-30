@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import { myTheme } from './theme';
 import Main from './screens/Main';
 import About from './screens/About';
+import Projects from './screens/Projects';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <NavBar />
         <Main />
         <About />
+        <Projects />
       </ChakraProvider>
     </div>
   );
