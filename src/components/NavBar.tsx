@@ -24,13 +24,13 @@ export default function NavBar() {
           </Flex>
           <Box>
             <Flex align="center">
-              <Link href="/about" marginRight="3rem">
+              <Link href="/#about" marginRight="3rem">
                 about
               </Link>
-              <Link href="/projects" marginRight="3rem">
+              <Link href="/#projects" marginRight="3rem">
                 projects
               </Link>
-              <Link href="/publications" marginRight="3rem">
+              <Link href="/#publications" marginRight="3rem">
                 publications
               </Link>
               <Link href="/resume" marginRight="3rem">

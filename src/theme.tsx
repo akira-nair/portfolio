@@ -10,6 +10,7 @@ export const myTheme = extendTheme({
     colors: {
         c1: '#FFB6BE',
         c2: '#060E36',
-        c3: '#FAA629'
+        c3: '#FAA629',
+        c4: '#192152'
     },
 })
