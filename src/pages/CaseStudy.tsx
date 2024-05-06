@@ -8,7 +8,7 @@ import { FaCode } from "react-icons/fa6";
 import { ReactNode, useState } from "react";
 function CaseInfoPanel(props: { role: string, company: string, github: string, dates: string, skills: string[] }) {
     return (
-        <Box width={'100%'} display={'flex'} justifyContent={'space-evenly'} borderRadius={10} padding={'1.5%'} color={'white'} backgroundColor={'rgba(128, 128, 128, 0.5)'}>
+        <Box width={'100%'} display={'flex'} justifyContent={'space-evenly'} borderRadius={10} marginTop={'10px'} padding={'1.5%'} color={'white'} backgroundColor={'rgba(128, 128, 128, 0.5)'}>
             <VStack gap={'20px'}>
                 <HStack gap={'12'}>
                     <Box display={'flex'} flexDirection={'row'} alignItems={'center'}>
@@ -58,7 +58,7 @@ export function CaseStudyParagraph(props: {children?: ReactNode}) {
 
 export function CaseStudyImage(props: {src: string}) {
     return (
-        <Image margin={'2em'} src={props.src} maxWidth={'90%'} />
+        <Image marginY={'2%'} paddingX={'5%'} src={props.src}/>
     )
 }
 
@@ -81,7 +81,7 @@ export default function CaseStudy(props: { name: string, company: string, role: 
         <div>
             <Box minH={'100vh'} backgroundColor={'c2'} color={'white'} paddingTop={'5%'} alignItems={'center'} paddingLeft={'22%'} paddingRight={'22%'} paddingBottom={'30px'}>
                 {/* <IconButton aria-label={"menu-icon-button"} icon={<HamburgerIcon />} onClick={onOpen} position="absolute" top={30} left={30}> Back to Projects</IconButton> */}
-                <Link href="/">
+                <Link href="/#projects">
                     <HStack marginBottom={5}>
                         <ArrowBackIcon />
                         <Text fontSize={'0.9em'} >

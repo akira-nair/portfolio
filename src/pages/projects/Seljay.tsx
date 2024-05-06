@@ -3,7 +3,7 @@ import CaseStudy, { CaseStudyHeader, CaseStudyImage, CaseStudyInsight, CaseStudy
 
 export default function Seljay() {
     return (
-        <CaseStudy name="Seljay" company="Jatshoen" role="Mobile App Developer" github={"https://www.github.com/jatshoen/seljay-app"} dates={"Jan 2024 - May 2024"} skills={["React Native", "Figma", "Expo", "Typescript"]} banner="../../assets/projects/seljay/seljay_banner.png" link="https://apps.apple.com/us/app/seljay/id6477336572">
+        <CaseStudy name="Seljay" company="Jatshoen" role="Mobile App Developer" github={"https://www.github.com/jatshoen/"} dates={"Jan 2024 - May 2024"} skills={["React Native", "Figma", "Expo", "Typescript"]} banner="../../assets/projects/seljay/seljay_banner.png" link="https://apps.apple.com/us/app/seljay/id6477336572">
             <CaseStudyHeader>BRIEF</CaseStudyHeader>
             {/* <Text fontSize={'1.5em'} marginTop={'30px'}>BRIEF</Text> */}
             <CaseStudyParagraph>Seljay is a mobile app I designed and built with the Jatshoen team to teach students and language learners how to write in the Dzongkha script. The app offers step-by-step stroke guidance and audio pronunciation for each of the consonants in the Dzongkha alphabet. Characters are organized into lessons, grouped by phonetic categories. As a user practices writing the characters, progress in the app is saved. </CaseStudyParagraph>

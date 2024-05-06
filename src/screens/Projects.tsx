@@ -1,9 +1,14 @@
 import { Box, Card, SimpleGrid, Image, Text, VStack, Link } from "@chakra-ui/react";
 import Screen from "./Screen";
+import { motion } from "framer-motion";
 
 
 function ProjectCard(props: { project: string, company: string, description: string, image?: string, href: string }) {
     return (
+        <motion.div whileHover={{
+            scale: 1.05,
+            transition: { duration: 0.2 },
+          }} whileTap={{ scale: 1.02 }}>
         <Card background={'transparent'} color={'white'} onClick={() => {
         }}>
             <Link href={props.href}>
@@ -19,6 +24,7 @@ function ProjectCard(props: { project: string, company: string, description: str
             </Box>
             </Link>
         </Card>
+        </motion.div>
     )
 }
 

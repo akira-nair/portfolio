@@ -1,18 +1,9 @@
 import { Box, HStack, Image, VStack, Text, Avatar, Flex } from "@chakra-ui/react";
-
+import Screen from "./Screen";
 export default function About() {
     return (
-        <Box
-            minH="100vh"      // Set minimum height to 100% of viewport height
-            bg="c2"     // Example background color
-            display="flex"    // Use flexbox to center content vertically
-            justifyContent="center"
-            alignItems="center"
-            color={'white'}
-            zIndex={"0"}
-        >
-            {/* Your content for this section */}
-            <Box>
+        <div>
+        <Screen>
                 <Flex direction={'row'} padding={'20%'} margin={'auto'} gap={'5%'}>
                     <Box  alignItems={"center"}>
                         <Box
@@ -44,7 +35,7 @@ export default function About() {
                     </Box>
                 </Flex>
 
-            </Box>
-        </Box>
+        </Screen>
+        </div>
     )
 }
