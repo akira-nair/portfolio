@@ -48,11 +48,11 @@ export default function Projects() {
         <div>
             <Screen>
                 <ProjectHeader text="SOFTWARE ENGINEERING & DESIGN" />
-                <SimpleGrid columns={2} marginTop={'5%'} spacing={20}>
-                    <ProjectCard project={"Yoenten"} company={"Jatshoen"} description={"Developed a web app to aid students in Bhutan in searching for schools based on location, tuition fees, and academic programs."} href="/projects/jatshoen-yoenten"  />
+                <SimpleGrid columns={2} marginTop={'5%'} spacing={10}>
+                    {/* <ProjectCard project={"Yoenten"} company={"Jatshoen"} description={"Developed a web app to aid students in Bhutan in searching for schools based on location, tuition fees, and academic programs."} href="/projects/jatshoen-yoenten"  /> */}
                     <ProjectCard project={"Seljay"} company={"Jatshoen"} description={"Developed a mobile app that teaches users how to write in Dzongkha."} href="/projects/jatshoen-seljay" image="assets/projects/seljay/seljay_banner.png"/>
-                    <ProjectCard project={"IMSLP Redesign"} company={"UIUX"} description={"Developed a web app to aid students in Bhutan in searching for schools based on location, tuition fees, and academic programs."} href="/projects/uiux-redesign" image="assets/projects/uiux-imslp/imslp_banner.png" />
-                    <ProjectCard project={"Song Cards"} company={"UIUX"} description={"Developed a mobile app that teaches users how to write in Dzongkha."} href="/projects/uiux-development" image="assets/projects/uiux-songcards/songcards_banner.png" />
+                    <ProjectCard project={"IMSLP Redesign"} company={"UIUX"} description={"Developed a refined and responsive design for the IMSLP website based on clear design and accessible principles."} href="/projects/uiux-redesign" image="assets/projects/uiux-imslp/imslp_banner.png" />
+                    <ProjectCard project={"Song Cards"} company={"UIUX"} description={"Developed a simple React app where users can filter songs based on language and duration."} href="/projects/uiux-development" image="assets/projects/uiux-songcards/songcards_banner.png" />
                 </SimpleGrid>
             </Screen>
             <Screen>
